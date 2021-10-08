@@ -132,7 +132,7 @@ func filter(filepathIn, filepathOut string, threads int) {
 	var newPixelData [][]uint8
 
 	if threads == 1 {
-		newPixelData = medianFilter(0, height, 0, width, immutableData)
+		go worker(0,height,0,width,immutableData,slice[0])
 	} else {
 		for i:=1; i<=threads; i++ {
 			go worker(start,end,0,width,immutableData,slice[i-1])
