@@ -1,0 +1,44 @@
+goos: linux
+goarch: amd64
+pkg: example.com/merge
+BenchmarkSequential/524288-12         	       1	  75133441 ns/op
+BenchmarkSequential/524288-12         	       1	  84927538 ns/op
+BenchmarkSequential/524288-12         	       1	  74554283 ns/op
+BenchmarkSequential/524288-12         	       1	  79881029 ns/op
+BenchmarkSequential/524288-12         	       1	  94208845 ns/op
+BenchmarkSequential/1048576-12        	       1	 157643646 ns/op
+BenchmarkSequential/1048576-12        	       1	 157405165 ns/op
+BenchmarkSequential/1048576-12        	       1	 153629023 ns/op
+BenchmarkSequential/1048576-12        	       1	 154350336 ns/op
+BenchmarkSequential/1048576-12        	       1	 154327131 ns/op
+BenchmarkSequential/2097152-12        	       1	 320889606 ns/op
+BenchmarkSequential/2097152-12        	       1	 322145344 ns/op
+BenchmarkSequential/2097152-12        	       1	 335023710 ns/op
+BenchmarkSequential/2097152-12        	       1	 323275886 ns/op
+BenchmarkSequential/2097152-12        	       1	 321734718 ns/op
+BenchmarkSequential/4194304-12        	       1	 678824102 ns/op
+BenchmarkSequential/4194304-12        	       1	 676945111 ns/op
+BenchmarkSequential/4194304-12        	       1	 697791847 ns/op
+BenchmarkSequential/4194304-12        	       1	 699111187 ns/op
+BenchmarkSequential/4194304-12        	       1	 677365334 ns/op
+BenchmarkParallel/524288-12           	       1	 193037682 ns/op
+BenchmarkParallel/524288-12           	       1	 163450667 ns/op
+BenchmarkParallel/524288-12           	       1	 175620932 ns/op
+BenchmarkParallel/524288-12           	       1	 170598179 ns/op
+BenchmarkParallel/524288-12           	       1	 160184286 ns/op
+BenchmarkParallel/1048576-12          	       1	 402695058 ns/op
+BenchmarkParallel/1048576-12          	       1	 363368590 ns/op
+BenchmarkParallel/1048576-12          	       1	 370396073 ns/op
+BenchmarkParallel/1048576-12          	       1	 354109445 ns/op
+BenchmarkParallel/1048576-12          	       1	 402507754 ns/op
+BenchmarkParallel/2097152-12          	       1	 850297223 ns/op
+BenchmarkParallel/2097152-12          	       1	 758471350 ns/op
+BenchmarkParallel/2097152-12          	       1	 713980067 ns/op
+BenchmarkParallel/2097152-12          	       1	 738820027 ns/op
+BenchmarkParallel/2097152-12          	       1	 773132250 ns/op
+BenchmarkParallel/4194304-12          	       1	1839262702 ns/op
+BenchmarkParallel/4194304-12          	       1	1666210185 ns/op
+BenchmarkParallel/4194304-12          	       1	1674555680 ns/op
+BenchmarkParallel/4194304-12          	       1	1581606713 ns/op
+BenchmarkParallel/4194304-12          	       1	1730778556 ns/op
+ok  	example.com/merge	44.785s

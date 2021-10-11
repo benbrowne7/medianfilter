@@ -1,29 +1,29 @@
 goos: linux
 goarch: amd64
 pkg: example.com/filter
-BenchmarkFilter/1_workers-8         	       1	 394388012 ns/op
-BenchmarkFilter/1_workers-8         	       1	 420074804 ns/op
-BenchmarkFilter/1_workers-8         	       1	 407103416 ns/op
-BenchmarkFilter/1_workers-8         	       1	 417049626 ns/op
-BenchmarkFilter/1_workers-8         	       1	 414982195 ns/op
-BenchmarkFilter/2_workers-8         	       1	 240019842 ns/op
-BenchmarkFilter/2_workers-8         	       1	 248904927 ns/op
-BenchmarkFilter/2_workers-8         	       1	 247868526 ns/op
-BenchmarkFilter/2_workers-8         	       1	 265088007 ns/op
-BenchmarkFilter/2_workers-8         	       1	 278840926 ns/op
-BenchmarkFilter/4_workers-8         	       1	 187066347 ns/op
-BenchmarkFilter/4_workers-8         	       1	 176660279 ns/op
-BenchmarkFilter/4_workers-8         	       1	 166500608 ns/op
-BenchmarkFilter/4_workers-8         	       1	 165241302 ns/op
-BenchmarkFilter/4_workers-8         	       1	 179353795 ns/op
-BenchmarkFilter/8_workers-8         	       1	 133290706 ns/op
-BenchmarkFilter/8_workers-8         	       1	 140750558 ns/op
-BenchmarkFilter/8_workers-8         	       1	 131974601 ns/op
-BenchmarkFilter/8_workers-8         	       1	 128998779 ns/op
-BenchmarkFilter/8_workers-8         	       1	 144076450 ns/op
-BenchmarkFilter/16_workers-8        	       1	 134019326 ns/op
-BenchmarkFilter/16_workers-8        	       1	 145088794 ns/op
-BenchmarkFilter/16_workers-8        	       1	 135089993 ns/op
-BenchmarkFilter/16_workers-8        	       1	 148676923 ns/op
-BenchmarkFilter/16_workers-8        	       1	 138496341 ns/op
-ok  	example.com/filter	11.241s
+BenchmarkFilter/1_workers-12         	       1	 310129050 ns/op
+BenchmarkFilter/1_workers-12         	       1	 307036002 ns/op
+BenchmarkFilter/1_workers-12         	       1	 308243227 ns/op
+BenchmarkFilter/1_workers-12         	       1	 308655823 ns/op
+BenchmarkFilter/1_workers-12         	       1	 327335178 ns/op
+BenchmarkFilter/2_workers-12         	       1	 181975175 ns/op
+BenchmarkFilter/2_workers-12         	       1	 179512889 ns/op
+BenchmarkFilter/2_workers-12         	       1	 183468975 ns/op
+BenchmarkFilter/2_workers-12         	       1	 182678188 ns/op
+BenchmarkFilter/2_workers-12         	       1	 188608943 ns/op
+BenchmarkFilter/4_workers-12         	       1	 133339759 ns/op
+BenchmarkFilter/4_workers-12         	       1	 122955068 ns/op
+BenchmarkFilter/4_workers-12         	       1	 132022333 ns/op
+BenchmarkFilter/4_workers-12         	       1	 135415120 ns/op
+BenchmarkFilter/4_workers-12         	       1	 134061582 ns/op
+BenchmarkFilter/8_workers-12         	       1	 100665308 ns/op
+BenchmarkFilter/8_workers-12         	       1	  98789710 ns/op
+BenchmarkFilter/8_workers-12         	       1	  98067558 ns/op
+BenchmarkFilter/8_workers-12         	       1	  98555592 ns/op
+BenchmarkFilter/8_workers-12         	       1	 103289048 ns/op
+BenchmarkFilter/16_workers-12        	       1	  90779854 ns/op
+BenchmarkFilter/16_workers-12        	       1	  86245444 ns/op
+BenchmarkFilter/16_workers-12        	       1	  89235162 ns/op
+BenchmarkFilter/16_workers-12        	       1	  90835187 ns/op
+BenchmarkFilter/16_workers-12        	       1	  89819868 ns/op
+ok  	example.com/filter	8.244s
